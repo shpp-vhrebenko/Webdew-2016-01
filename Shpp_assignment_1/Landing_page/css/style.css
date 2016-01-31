@@ -1,0 +1,188 @@
+@import url("reset.css");
+
+body {
+	background-color: #cccccc; 
+}
+
+#wrapper{
+width:960px;
+height:1220px;
+outline:1px solid #cccccc;
+margin:0 auto;
+}
+
+header {
+	height:65px;
+	outline:1px solid #cccccc;
+	background-color: white;
+	position: relative;
+}
+
+#logo {	
+	width: 104px;
+	height: 63px;
+	background-image:url(../image/logo.png);
+	background-repeat: no-repeat;	
+	position: absolute;
+	left: 60px;
+}
+
+#menu {
+	width: 400px;
+	height: 16px;
+	position: absolute;	
+	left: 550px;
+	top: 20px;	
+}
+
+#menu li {
+	float:left;	
+	margin-right: 50px;	
+}
+
+#menu li a {
+	font: 14px Arial, sans-serif;	
+	text-decoration: none;
+	color:#2d4e69;
+}
+
+#content {
+	height: 420px;
+	outline:1px solid #cccccc;
+	background-color: #00BD9C;
+	position:relative;
+}
+
+#mobi {
+	width: 157px;
+	height: 329px;
+	background-image: url(../image/mobila.png); 
+	background-repeat: no-repeat;
+	position: absolute;
+	left:200px;
+	top:45px;
+}
+
+#content__element {
+	width: 430px;
+	height: 220px;	
+	position: absolute;
+	left: 490px;
+	top: 95px;
+}
+
+#content__element h1 {
+	font:bold 23px Arial, sans-serif;
+	color:white;
+	margin-bottom: 45px;
+}
+
+#content__element p {
+	font:15px Arial, sans-serif;
+	color:white;	
+}
+
+#content__element a{
+	font:20px Arial, sans-serif;
+	color:white;
+	text-decoration: none;
+	display: block;
+	width: 90px;
+	height: 16px;	
+	border:2px solid white;
+	border-radius: 7px;
+	cursor: pointer; 
+	padding: 6px 8px 15px 19px;
+	margin-top: 40px;
+}
+
+#sidebar {
+	height: 300px;
+	outline: 1px solid #cccccc;
+	background-color: white;
+	position:relative;
+}
+
+#sidebar__element ul li {	
+	width: 280px;
+	height: 210px;
+	float:left;
+	text-align: center;	
+}
+
+#sidebar__element {
+	width: 850px;
+	height: 215px;
+	position: absolute;
+	top:40px;
+	left: 65px;
+}
+
+#sidebar__element ul li a {
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	width: 35px;
+	height: 35px;
+	background-color:#00BD9C;
+	border-radius: 100px; 
+	padding: 15px 17px;
+	color:white;
+	font-size: 30px;
+	margin-left:105px;
+	margin-bottom: 15px;
+}
+
+#sidebar__element ul li h3 {
+	font:bold 14px Arial, sans-serif;
+	color:#2c4c74;
+	margin-bottom: 17px;	
+	
+}
+
+#form {
+	height: 430px;
+	outline: 1px solid #cccccc;
+	background-color: #00BD9C;
+	position: relative;	
+	text-align: center;
+	border:1px solid #00BD9C;
+}
+
+#form h2 {
+	color:white;
+	font:bold 30px Arial, sans-serif;
+	display: block;
+	margin-top: 50px;
+
+}
+
+#element__form {	
+	position: absolute;
+	width: 455px;
+	height: 278px;
+	top: 112px;
+	left: 265px;
+}
+
+#element__form  .data {
+	margin-bottom: 5px;
+	width: 455px;
+	height: 24px;
+}
+
+#element__form textarea {
+	width: 455px;
+	height: 90px;
+}
+
+#submit {
+	width: 190px;
+	height: 38px;
+	background-color: #00BD9C;
+	border: 2px solid white;
+	border-radius: 8px;
+	color:white;
+	font:18px Arial, sans-serif;
+	margin-top: 45px;
+}
